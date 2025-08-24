@@ -159,7 +159,6 @@
     damage:
       types:
         Piercing: 15 #you fucking stab em
-        Bloodloss: 2 #no way to apply bleed, triangular bayonet wounds are hard to fix(source:that one copypasta)
     angle: 0
     animation: WeaponArcThrust
     soundHit:

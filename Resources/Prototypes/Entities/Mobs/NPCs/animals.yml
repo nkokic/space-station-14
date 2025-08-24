@@ -1887,7 +1887,7 @@
   - type: Damageable
     damage:
       types:
-        Asphyxiation: 4
+        Asphyxiation: 10
         Slash: 7
         Blunt: 3
 
