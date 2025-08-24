@@ -260,7 +260,8 @@
         damage:
           types:
             Asphyxiation: -1
-            Bloodloss: -0.5
+      - !type:ModifyBloodLevel
+          amount: 0.5
       - !type:HealthChange
         conditions:
           - !type:ReagentThreshold
@@ -285,7 +286,8 @@
         damage:
           types:
             Asphyxiation: -3.5
-            Bloodloss: -3
+      - !type:ModifyBloodLevel
+          amount: 3
       - !type:AdjustReagent
         conditions:
         - !type:ReagentThreshold
@@ -768,13 +770,11 @@
       # but still technically stop your bleeding.
       - !type:ModifyBleedAmount
         amount: -1.5
-      - !type:HealthChange
+      - !type:ModifyBloodLevel
+        amount: -3
         conditions:
         - !type:ReagentThreshold
           min: 15
-        damage:
-          types:
-            Bloodloss: 3
 
 - type: reagent
   id: Tricordrazine

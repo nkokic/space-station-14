@@ -22,11 +22,11 @@
     bloodMaxVolume: 75 #we don't want the map to become pools of blood
     bloodlossDamage:
       types:
-        Bloodloss:
+        Asphyxiation:
           0.5
     bloodlossHealDamage:
       types:
-        Bloodloss:
+        Asphyxiation:
           -1
   - type: Insulated
   - type: CombatMode

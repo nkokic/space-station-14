@@ -56,11 +56,11 @@
     bloodReagent: Slime
     bloodlossDamage:
       types:
-        Bloodloss:
+        Asphyxiation:
           0.5
     bloodlossHealDamage:
       types:
-        Bloodloss:
+        Asphyxiation:
           -0.25
   - type: Barotrauma
     damage:

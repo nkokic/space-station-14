@@ -265,8 +265,11 @@
           groups:
             Brute: -5
             Burn: -5
-          types:
-            Bloodloss: -5
+      - !type:ModifyBloodLevel
+        amount: 5
+        conditions:
+        - !type:OrganType
+          type: Rat
       - !type:Oxygenate # ammonia displaces nitrogen in vox blood
         conditions:
         - !type:OrganType

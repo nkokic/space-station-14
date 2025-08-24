@@ -238,7 +238,7 @@
   - type: Bloodstream
     bloodlossDamage:
       types:
-        Bloodloss: 0.5
+        Asphyxiation: 0.5
     bloodlossHealDamage:
       types:
-        Bloodloss: -1
+        Asphyxiation: -1

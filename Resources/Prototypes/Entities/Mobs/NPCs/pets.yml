@@ -830,7 +830,7 @@
   - type: Bloodstream
     bloodlossHealDamage:
       types:
-        Bloodloss:
+        Asphyxiation:
           -0.8
   - type: Temperature
     heatDamageThreshold: 800
