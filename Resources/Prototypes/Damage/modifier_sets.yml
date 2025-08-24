@@ -226,7 +226,6 @@
     Poison: 0.0
     Radiation: 0.0
     Asphyxiation: 0.0
-    Bloodloss: 0.0
     Cellular: 0.0
   flatReductions:
     Blunt: 5
@@ -239,7 +238,6 @@
     Cold: 0.0
     Radiation: 0.5
     Asphyxiation: 0.0
-    Bloodloss: 0.0
     Cellular: 0.0
 
 # Represents which damage types should be modified
@@ -249,7 +247,6 @@
   id: BloodlossHuman
   coefficients:
     Asphyxiation: 0.0
-    Bloodloss: 0.0 # no double dipping
     Blunt: 0.08
     Caustic: 0.0
     Cellular: 0.0
@@ -281,7 +278,6 @@
     Heat: 0.0
     Radiation: 0.0
     Shock: 0.8
-    Bloodloss: 0.4
     Holy: 1
 
 - type: damageModifierSet

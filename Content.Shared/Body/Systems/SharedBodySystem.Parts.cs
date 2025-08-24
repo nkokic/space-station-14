@@ -15,7 +15,7 @@ namespace Content.Shared.Body.Systems;
 
 public partial class SharedBodySystem
 {
-    private static readonly ProtoId<DamageTypePrototype> BloodlossDamageType = "Bloodloss";
+    private static readonly ProtoId<DamageTypePrototype> BloodlossDamageType = "Asphyxiation";
     private void InitializeParts()
     {
         // TODO: This doesn't handle comp removal on child ents.

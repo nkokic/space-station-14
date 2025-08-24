@@ -17,14 +17,12 @@
 
 # Airloss (sometimes called oxyloss)
 # Caused by asphyxiation or bloodloss.
-# Note that most medicine and damaging effects should probably modify either asphyxiation or
-# bloodloss, not this whole group, unless you have a wonder drug that affects both.
+# Note that bloodloss isn't a damage type but a lack of blood.
 - type: damageGroup
   id: Airloss
   name: damage-group-airloss
   damageTypes:
     - Asphyxiation
-    - Bloodloss
 
 # As with airloss, most medicine and damage effects should probably modify either poison or radiation.
 # Though there are probably some radioactive poisons.
